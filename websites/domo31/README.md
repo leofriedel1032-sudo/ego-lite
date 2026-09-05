@@ -73,10 +73,16 @@ Toutes les couleurs, polices et espacements sont regroupés en variables CSS en
 haut de `assets/css/style.css`, section « Design tokens » :
 
 ```css
---brique: #b4553c;   /* accent principal, la brique toulousaine */
---anthracite: #1d2229;
---sable: #f8f4ef;
+--bleu: #17518f;        /* couleur principale */
+--jaune: #f5b301;       /* accent : tirets, pastilles, boutons de conversion */
+--jaune-clair: #fdefc4; /* fond des icônes de prestations */
+--anthracite: #13233d;  /* texte et sections sombres */
+--brume: #f2f6fb;       /* fond des sections claires */
 ```
+
+Les illustrations SVG intégrées aux pages reprennent la même palette : façades
+et menuiseries en bleu marine, lumière des vitrages en jaune. Si la palette
+change, penser à ces couleurs écrites en dur dans les fichiers HTML.
 
 ## Ressources externes
 
