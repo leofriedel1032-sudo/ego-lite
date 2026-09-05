@@ -901,7 +901,7 @@ li { margin-bottom: .45em; }
   display: block;
   font-family: var(--titre);
   font-size: clamp(1.7rem, 3vw, 2.1rem);
-  color: var(--blanc);
+  color: var(--jaune);
   line-height: 1.1;
   margin-bottom: .25rem;
 }
