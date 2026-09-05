@@ -8,15 +8,6 @@
   /* ---------- Menu mobile ---------- */
   var burger = document.querySelector("[data-burger]");
   var nav = document.querySelector("[data-nav]");
-  var entete = document.querySelector(".entete");
-
-  function majHauteurEntete() {
-    if (!entete) return;
-    document.documentElement.style.setProperty(
-      "--hauteur-entete",
-      entete.offsetHeight + "px"
-    );
-  }
 
   function fermerMenu() {
     if (!burger || !nav) return;
@@ -42,12 +33,9 @@
     });
 
     window.addEventListener("resize", function () {
-      majHauteurEntete();
       if (window.innerWidth > 980) fermerMenu();
     });
   }
-
-  majHauteurEntete();
 
   /* ---------- Année courante dans le pied de page ---------- */
   Array.prototype.forEach.call(
